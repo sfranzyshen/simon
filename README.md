@@ -26,6 +26,9 @@ While WebSockets are fun ... this setup doesn't scale very well. The more connec
   <code>http://yourip/</code>
   
   <h2> Notes: </h2>
+  
+  Watch an overview of my installation <a href="https://www.youtube.com/watch?v=dHJzPRSBggw" target="_blank">Here on Youtube.com</a>
+
   I have a dlink/openwrt router setup without an internet connection. A wifi network setup with the ssid set as "Simon" and no password.  I added hostnames for Simon & simon to point to 192.168.0.1 (the routers ip), and I added "address=/#/192.168.0.1" to the bottom of /etc/dnsmasq.conf file. This will cause any wifi connected device to only connect to the server. So, all the players need to do is connect to the "Simon" wifi router and open a web browser (chrome or firefox ...) and type in anything ... and they will be connected to the game. I also have an arduino uno with a tlc5940 circut connected to the usb port of the router driving 4 RGB LED amps -> 4 RGB lamps.
   
   
